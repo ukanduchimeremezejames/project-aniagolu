@@ -219,15 +219,15 @@ export function ArchivesPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="text-4xl font-serif text-[#C5A572] mb-2">500+</div>
+              <div className="text-4xl font-serif text-[#C5A572] mb-2">10+</div>
               <p className="text-[#8B8478]">Documents</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-serif text-[#C5A572] mb-2">50+</div>
+              <div className="text-4xl font-serif text-[#C5A572] mb-2">5+</div>
               <p className="text-[#8B8478]">Court Judgments</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-serif text-[#C5A572] mb-2">100+</div>
+              <div className="text-4xl font-serif text-[#C5A572] mb-2">20+</div>
               <p className="text-[#8B8478]">Photographs</p>
             </div>
           </div>

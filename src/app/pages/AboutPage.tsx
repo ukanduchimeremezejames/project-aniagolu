@@ -19,7 +19,7 @@ export function
 AboutPage() {
   const timelineEvents = [
       {
-        year: '1918',
+        year: '1922',
         title: 'Early Life and Birth',
         description: 'Born in Nigeria during a period of significant social and political change. His family instilled in him values of education, service, and integrity from an early age.',
         image: heroImage,
@@ -84,7 +84,7 @@ AboutPage() {
 
   const milestones = [
     {
-      year: '1918',
+      year: '1922 ',
       title: 'Birth and Early Years',
       description: 'Born into a family that valued education and public service.',
     },
@@ -148,25 +148,25 @@ AboutPage() {
               </h2>
               <div className="space-y-4 text-[#8B8478] leading-relaxed">
                 <p>
-                  Justice Anthony Aniagolu stands as one of Nigeria's most distinguished jurists, 
-                  whose contributions to the nation's legal system continue to resonate decades 
-                  after his service. Born in the early 20th century, he witnessed and participated 
-                  in some of the most transformative periods in Nigerian history.
+                  Justice Anthony Nnaemezie Aniagolu was one of Nigeria’s most distinguished jurists, whose judicial and constitutional career spanned more than four decades. Renowned for intellectual rigor, institutional discipline, and uncompromising fidelity to the rule of law, he played a foundational role in shaping Nigeria’s post-independence jurisprudence and constitutional development.
                 </p>
                 <p>
-                  His judicial philosophy was marked by a deep commitment to justice, fairness, 
-                  and the rule of law. Throughout his tenure on the Supreme Court, Justice Aniagolu 
-                  delivered numerous landmark judgments that helped shape modern Nigerian jurisprudence.
+                  Born on 22 October 1922 in Eke, Udi (present-day Enugu State), he demonstrated academic excellence from an early age. After studies at Government College, Umuahia and Christ the King College, Onitsha, he pursued legal education in the United Kingdom, earning his LL.B from the University of Bristol and being called to the Bar at Gray’s Inn, London, in July 1952. He was subsequently enrolled as a Barrister and Solicitor of the Supreme Court of Nigeria the same year.
                 </p>
                 <p>
-                  Beyond the courtroom, he was known for his scholarly contributions to legal literature, 
-                  his mentorship of young lawyers, and his dedication to public service. His legacy 
-                  continues to inspire legal professionals and students across Nigeria and beyond.
+                  Justice Aniagolu began his professional career in private legal practice (1952–1965), during which he established a reputation for competence and ethical firmness. He also held important public and professional roles, including:
+                  <ul liststyle="disc" className="list-inside text-[#8B8478] leading-relaxed mt-2 mb-4">
+                    <li> * Chairman, Nigerian Bar Association (Enugu Branch) (1962–1965)</li>
+                    <li>* Member, Disciplinary Committee, Bar Council of Nigeria (1962–1965)</li>
+                    <li>* Member, Federal Electoral Commission (1958–1965)</li>
+                    <li>* Member, Federal Nigerian Delimitation Commission (1963–1964)</li>
+                    
+                  </ul>
+                  These early engagements reflected his growing influence within Nigeria’s legal and institutional landscape.
                 </p>
                 <p>
-                  The Aniagolu Foundation was established to preserve his writings, judicial opinions, 
-                  and personal papers, ensuring that future generations can learn from his wisdom 
-                  and dedication to justice.
+                  Justice Anthony N. Aniagolu stands among the titans of Nigeria’s judicial history. His career represents a synthesis of scholarship, administrative leadership, constitutional stewardship, and ethical courage. His judgments, writings, and public service continue to inform legal discourse and serve as a model for judicial integrity within Nigeria’s evolving constitutional democracy. <br/><br/>
+                  This overview is suitable for placement within a digital memorial library as a concise yet authoritative account of his professional life and enduring institutional legacy.
                 </p>
               </div>
             </motion.div>
@@ -279,7 +279,7 @@ AboutPage() {
           >
             <h2 className="font-serif text-3xl md:text-4xl mb-6">Our Mission</h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              The Aniagolu Legacy Foundation is dedicated to preserving and promoting the judicial 
+             We are dedicated to preserving and promoting the judicial 
               philosophy, scholarly work, and humanitarian contributions of Justice Anthony Aniagolu. 
               We work to ensure that his commitment to justice, integrity, and excellence continues 
               to inspire and guide future generations of legal professionals and public servants.

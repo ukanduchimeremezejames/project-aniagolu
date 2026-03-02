@@ -13,7 +13,7 @@ export function HomePage() {
     {
       icon: Book,
       title: 'Rich Archives',
-      description: 'Explore comprehensive collections of legal documents, speeches, and historical records.',
+      description: 'Explore comprehensive collections of legal documents, Journals, Landmark Judgments (Case Citations) and historical records.',
     },
     {
       icon: Users,
@@ -76,7 +76,7 @@ export function HomePage() {
         icon: Book,
         title: 'Knight of St. Sylvester',
         description: 'Knight-ed by the Catholic Church',
-        action: 'with papal honors',
+        action: 'With Papal Honors',
       },
     ];
 
@@ -106,10 +106,9 @@ export function HomePage() {
               Preserving a Legacy of Excellence
             </h2>
             <p className="text-lg text-[#8B8478] leading-relaxed mb-8">
-              The Aniagolu Legacy Foundation is dedicated to preserving and promoting the judicial 
+              We are dedicated to preserving and promoting the judicial 
               philosophy, scholarly work, and humanitarian contributions of Justice Anthony Aniagolu. 
-              Through our archives, educational programs, and community initiatives, we ensure that 
-              his commitment to justice continues to inspire future generations.
+              Through our archives, educational programs, and community initiatives, we ensure that his commitment to justice continues to inspire future generations.
             </p>
             <Link
               to="/about"

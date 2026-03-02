@@ -212,7 +212,7 @@ export function HistoryPage() {
               transition={{ delay: 0.1 }}
               className="text-center p-6"
             >
-              <div className="text-5xl font-serif text-[#C5A572] mb-2">200+</div>
+              <div className="text-5xl font-serif text-[#C5A572] mb-2">50+</div>
               <p className="text-[#8B8478] text-lg">Landmark Judgments</p>
             </motion.div>
 
@@ -223,7 +223,7 @@ export function HistoryPage() {
               transition={{ delay: 0.2 }}
               className="text-center p-6"
             >
-              <div className="text-5xl font-serif text-[#C5A572] mb-2">50+</div>
+              <div className="text-5xl font-serif text-[#C5A572] mb-2">10+</div>
               <p className="text-[#8B8478] text-lg">Scholarly Publications</p>
             </motion.div>
 

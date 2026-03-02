@@ -3,8 +3,22 @@ import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, Heart, Users, Book } from 'lucide-react';
 import { useState } from 'react';
 import heroImage from '../../assets/aniagolu.jpg';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import { useEffect } from 'react';
+
+// Fix default marker icon in React-Leaflet
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+});
 
 export function ContactPage() {
+    const position: [number, number] = [51.505, -0.09]; // default coordinates (London)
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -176,9 +190,9 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-medium text-[#1A2B47] mb-2">Address</h3>
                     <p className="text-[#8B8478] leading-relaxed">
-                      Aniagolu Legacy Foundation<br />
-                      123 Legal Avenue<br />
-                      Abuja, Nigeria
+                      Aniagolu's Family House<br />
+                      Eke, Udi, Enugu <br />
+                      Nigeria
                     </p>
                   </div>
                 </div>
@@ -223,9 +237,15 @@ export function ContactPage() {
               </div>
 
               {/* Map Placeholder */}
-              <div className="bg-[#E8E2D9] rounded-lg h-64 flex items-center justify-center">
-                <p className="text-[#8B8478]">Map Location</p>
-              </div>
+              <div className="bg-[#E8E2D9] rounded-lg h-64 w-full overflow-hidden">
+              <iframe
+                title="Map Location - Eke, Udi, Enugu"
+                className="w-full h-full"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19886.44124786425!2d7.4827!3d6.5911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1698788567890!5m2!1sen!2sng"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
             </motion.div>
           </div>
         </div>
@@ -295,7 +315,7 @@ export function ContactPage() {
                 Are donations tax-deductible?
               </h3>
               <p className="text-[#8B8478] leading-relaxed">
-                The Aniagolu Legacy Foundation is a registered non-profit organization. Donations may be tax-deductible 
+                We are a registered non-profit organization. Donations may be tax-deductible 
                 according to local tax laws. Please consult with a tax professional for specific guidance.
               </p>
             </div>

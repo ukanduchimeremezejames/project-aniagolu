@@ -24,10 +24,10 @@ export function Navigation() {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'History', path: '/history' },
-    { name: 'Archives', path: '/archives' },
-    { name: 'Media', path: '/media' },
+    // { name: 'Archives', path: '/archives' },
+    // { name: 'Media', path: '/media' },
     { name: 'Publications', path: '/publications' },
-    { name: 'Events', path: '/events' },
+    // { name: 'Events', path: '/events' },
     { name: 'Contact', path: '/contact' },
   ];
 

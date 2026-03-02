@@ -9,7 +9,7 @@ export function PublicationsPage() {
       title: 'An address by the Hon. the Chief Judge of Anambra State, the Honourable Mr Justice A.N. Aniagolu to the Nigerian Bar Association at the Hotel Presidential, Enugu, Tuesday 24 August 1976',
       author: 'Justice Anthony Aniagolu',
       year: '1976',
-      description: 'Judicial address to the Nigerian Bar Association.',
+      description: 'Judicial address to the Nigerian Bar Association',
       pages: '356 pages',
     },
     {
@@ -23,95 +23,95 @@ export function PublicationsPage() {
       title: 'The Travails of Nigeria in Binding Herself into a Nation under the Constitution',
       author: 'Justice Anthony Aniagolu',
       year: '1991',
-      description: 'A comprehensive treatise on constitutional law, examining the Nigerian Constitution and its interpretationAnalysis of nation-building and constitutional challenges through landmark cases.',
+      description: 'Analysis of nation-building and constitutional challenges in Nigeria, drawing on historical and contemporary examples to illustrate the complexities of governance and unity.',
       pages: '236 pages',
     },
     {
-      title: 'Constitutional Law in Nigeria: Principles and Practice',
+      title: 'Justice and Good Governance: A Challenge for Catholics',
       author: 'Justice Anthony Aniagolu',
-      year: '1978',
-      description: 'A comprehensive treatise on constitutional law, examining the Nigerian Constitution and its interpretation through landmark cases.',
+      year: '2000',
+      description: 'Discussion on governance, ethics, and Catholic social teaching, exploring how religious principles can inform and inspire good governance in a pluralistic society.',
       pages: '456 pages',
     },
-    {
-      title: 'The Judicial Process: Theory and Practice',
-      author: 'Justice Anthony Aniagolu',
-      year: '1980',
-      description: 'An exploration of the judicial process, covering everything from legal reasoning to the role of precedent in common law systems.',
-      pages: '328 pages',
-    },
-    {
-      title: 'Selected Judgments and Opinions',
-      author: 'Justice Anthony Aniagolu',
-      year: '1985',
-      description: 'A collection of significant judgments and legal opinions that shaped Nigerian jurisprudence during a transformative period.',
-      pages: '512 pages',
-    },
+    // {
+    //   title: 'The Judicial Process: Theory and Practice',
+    //   author: 'Justice Anthony Aniagolu',
+    //   year: '1980',
+    //   description: 'An exploration of the judicial process, covering everything from legal reasoning to the role of precedent in common law systems.',
+    //   pages: '328 pages',
+    // },
+    // {
+    //   title: 'Selected Judgments and Opinions',
+    //   author: 'Justice Anthony Aniagolu',
+    //   year: '1985',
+    //   description: 'A collection of significant judgments and legal opinions that shaped Nigerian jurisprudence during a transformative period.',
+    //   pages: '512 pages',
+    // },
   ];
 
   const articles = [
     {
-      title: 'Justice and Good Governance: A Challenge for Catholics',
-      publication: 'Nigerian Law Review',
-      year: '2000',
-      abstract: 'Discussion on governance, ethics, and Catholic social teaching.',
-    },
-    {
-      title: 'The Independence of the Judiciary in a Democratic Society',
-      publication: 'Nigerian Law Review',
-      year: '1976',
-      abstract: 'An examination of the essential role of judicial independence in maintaining the rule of law and protecting democratic values.',
-    },
-    {
-      title: 'Constitutional Interpretation and the Living Document',
-      publication: 'Journal of Constitutional Law',
-      year: '1977',
-      abstract: 'Exploring how constitutions must be interpreted in light of evolving social circumstances while remaining true to fundamental principles.',
-    },
-    {
-      title: 'Human Rights and the Nigerian Constitution',
-      publication: 'African Law Journal',
-      year: '1979',
-      abstract: 'Analysis of human rights protections in the Nigerian Constitution and their application in judicial decisions.',
-    },
-    {
-      title: 'Legal Ethics and Professional Responsibility',
-      publication: 'Bar Journal',
-      year: '1981',
-      abstract: 'A comprehensive discussion of ethical obligations and professional standards for legal practitioners.',
-    },
-    {
-      title: 'The Role of Precedent in Common Law Systems',
-      publication: 'Commonwealth Legal Review',
-      year: '1982',
-      abstract: 'Examining how the doctrine of precedent functions in common law jurisdictions and its importance in ensuring consistency.',
-    },
-    {
-      title: 'Federalism and Constitutional Law',
+      title: 'Ariori v. Elemo (1983) N.S.C.C. 1',
       publication: 'Nigerian Law Review',
       year: '1983',
-      abstract: 'Analysis of federal systems and the distribution of powers between central and state governments.',
+      abstract: 'A key authority on the right to a fair hearing.',
     },
+    {
+      title: 'Nasiru Bello v. Attorney-General of Oyo State (1986)',
+      publication: 'Nigerian Law Review',
+      year: '1986',
+      abstract: 'Condemned the execution of a convict during a pending appeal.',
+    },
+    {
+      title: 'Legal Practitioners Disciplinary Committee v. Chief Gani Fawehinmi (1985)',
+      publication: 'Journal of Constitutional Law',
+      year: '1985',
+      abstract: ' Upheld the right to be heard.',
+    },
+    {
+      title: 'Sofekun v. Akinyemi & Ors (1980)',
+      publication: 'African Law Journal',
+      year: '1980',
+      abstract: 'Reinforced fair trial rights in tribunals.',
+    },
+    {
+      title: 'Margaret Chinyere Stitch v. Attorney-General of the Federation (1986)',
+      publication: 'Bar Journal',
+      year: '1986',
+      abstract: 'Established that ministers cannot misuse power.',
+    },
+    // {
+    //   title: 'The Role of Precedent in Common Law Systems',
+    //   publication: 'Commonwealth Legal Review',
+    //   year: '1982',
+    //   abstract: 'Examining how the doctrine of precedent functions in common law jurisdictions and its importance in ensuring consistency.',
+    // },
+    // {
+    //   title: 'Federalism and Constitutional Law',
+    //   publication: 'Nigerian Law Review',
+    //   year: '1983',
+    //   abstract: 'Analysis of federal systems and the distribution of powers between central and state governments.',
+    // },
   ];
 
   const speeches = [
     {
-      title: 'Address to Graduating Law Students',
-      venue: 'University of Nigeria, Nsukka',
-      year: '1980',
-      description: 'Inspiring words to new lawyers about the responsibilities and opportunities of the legal profession.',
+      title: 'Officer of the Federal Republic (OFR)',
+      venue: 'Federal Republic of Nigeria',
+      year: '1964',
+      description: 'The Officer of the Order of the Federal Republic (OFR) is a national honour awarded by the Federal Government of Nigeria. It is one of the ranks within the Order of the Federal Republic, which recognizes individuals who have made significant contributions to Nigeria’s development and progress.',
     },
     {
-      title: 'The Future of Nigerian Jurisprudence',
-      venue: 'Nigerian Bar Association Annual Conference',
+      title: 'Commander of the Order of the Niger (CON)',
+      venue: 'Part of the Order of the Niger',
       year: '1981',
-      description: 'Vision for the development of Nigerian law and the role of lawyers in nation-building.',
+      description: 'The Commander of the Order of the Niger (CON) is a high-ranking national honour in Nigeria. It is part of the Order of the Niger, one of the two main national orders established by the Federal Government of Nigeria.',
     },
     {
-      title: 'Justice and Social Change',
-      venue: 'Supreme Court Symposium',
+      title: 'Knight of St. Sylvester',
+      venue: 'The Catholic Diocese of Anambra State',
       year: '1982',
-      description: 'Reflections on how the legal system can respond to and facilitate positive social transformation.',
+      description: 'Knight-ed by the Catholic Church with papal honors, recognizing his contributions to the Church and society. The Order of St. Sylvester is one of the five orders of knighthood awarded directly by the Pope, and it honors laypeople who have demonstrated outstanding service to the Church.',
     },
   ];
 
@@ -119,7 +119,7 @@ export function PublicationsPage() {
     <div>
       {/* Hero Section */}
       <Hero
-        title="Publications & Writings"
+        title="Publications by Justice Anthony N. Aniagolu"
         subtitle="Scholarly Legacy"
         description="Explore the extensive body of legal scholarship, judicial opinions, and public addresses by Justice Aniagolu."
         image={heroImage}
@@ -129,7 +129,7 @@ export function PublicationsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-4">Books</h2>
+            <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-4">Publications</h2>
             <p className="text-lg text-[#8B8478] max-w-2xl mx-auto">
               Comprehensive legal treatises that continue to be cited by scholars and practitioners
             </p>
@@ -172,10 +172,10 @@ export function PublicationsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-4">
-              Journal Articles & Essays
+              Landmark Judgments (Case Citations)
             </h2>
             <p className="text-lg text-[#8B8478] max-w-2xl mx-auto">
-              Scholarly articles published in prestigious legal journals
+              Notable judicial decisions and case citations that have shaped Nigerian jurisprudence
             </p>
           </div>
 
@@ -220,10 +220,10 @@ export function PublicationsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-4">
-              Public Addresses & Speeches
+              Awards & Professional Recognition
             </h2>
             <p className="text-lg text-[#8B8478] max-w-2xl mx-auto">
-              Notable speeches and public addresses on law, justice, and society
+              Notable awards and recognitions received by Justice Aniagolu for his contributions to law and society
             </p>
           </div>
 

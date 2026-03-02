@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* About Section */}
           <div>
-            <h3 className="font-serif text-xl mb-4 text-[#C5A572]">Aniagolu Legacy</h3>
+            <h3 className="font-serif text-xl mb-4 text-[#C5A572]">Aniagolu's Legacy</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
               Honoring the life and legacy of Justice Anthony Aniagolu - a beacon of justice, 
               leadership, and service to humanity.
@@ -88,7 +88,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={16} className="mt-1 text-[#C5A572] flex-shrink-0" />
-                <span className="text-gray-300 text-sm">Aniagolu Foundation, Nigeria</span>
+                <span className="text-gray-300 text-sm">Eke, Udi, Enugu State, Nigeria</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={16} className="mt-1 text-[#C5A572] flex-shrink-0" />
@@ -110,7 +110,7 @@ export function Footer() {
         <div className="border-t border-[#2D4263] pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Aniagolu Legacy Foundation. All rights reserved.
+              © {currentYear} <b>Aniagolu</b> All rights reserved | Designed and Developed by James King (+234 814 822 4425)
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-[#C5A572] transition-colors text-sm">
