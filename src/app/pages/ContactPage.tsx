@@ -190,8 +190,7 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-medium text-[#1A2B47] mb-2">Address</h3>
                     <p className="text-[#8B8478] leading-relaxed">
-                      Aniagolu's Family House<br />
-                      Eke, Udi, Enugu <br />
+                      Eke, Udi, Enugu State,
                       Nigeria
                     </p>
                   </div>
@@ -204,18 +203,18 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-medium text-[#1A2B47] mb-2">Email</h3>
                     <a
-                      href="mailto:info@aniagolu.org"
+                      href="mailto:enquiries@aniagolu.org"
                       className="text-[#C5A572] hover:text-[#9E7E4A] transition-colors"
                     >
-                      info@aniagolu.org
+                       enquiries@aniagolu.org
                     </a>
                     <br />
-                    <a
+                    {/* <a
                       href="mailto:archives@aniagolu.org"
                       className="text-[#C5A572] hover:text-[#9E7E4A] transition-colors"
                     >
                       archives@aniagolu.org
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
@@ -231,21 +230,41 @@ export function ContactPage() {
                     >
                       +234 XXX XXX XXXX
                     </a>
-                    <p className="text-sm text-[#8B8478] mt-1">Mon-Fri, 9:00 AM - 5:00 PM</p>
+                    {/* <p className="text-sm text-[#8B8478] mt-1">Mon-Fri, 9:00 AM - 5:00 PM</p> */}
                   </div>
                 </div>
               </div>
 
               {/* Map Placeholder */}
-              <div className="bg-[#E8E2D9] rounded-lg h-64 w-full overflow-hidden">
+              <div className="relative w-full">
+
+              {/* Map Container */}
+              <div className="bg-[#E8E2D9] rounded-2xl h-72 w-full overflow-hidden shadow-xl border border-black/5">
               <iframe
                 title="Map Location - Eke, Udi, Enugu"
                 className="w-full h-full"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19886.44124786425!2d7.4827!3d6.5911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1698788567890!5m2!1sen!2sng"
+                src="https://www.google.com/maps?q=6.5911,7.4827&z=16&output=embed&t=k"
                 allowFullScreen
                 loading="lazy"
               />
-            </div>
+              </div>
+
+              {/* Floating Location Card */}
+              <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-4 py-3 rounded-xl shadow-lg border border-black/5">
+              <p className="font-semibold text-sm">Eke, Udi</p>
+              <p className="text-xs text-gray-500">Enugu, Nigeria</p>
+
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=6.5911,7.4827"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-block text-xs font-medium text-white bg-black px-3 py-1.5 rounded-md hover:bg-gray-800 transition"
+              >
+                Get Directions
+              </a>
+              </div>
+
+              </div>
             </motion.div>
           </div>
         </div>
@@ -291,7 +310,7 @@ export function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-4">
@@ -331,7 +350,7 @@ export function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

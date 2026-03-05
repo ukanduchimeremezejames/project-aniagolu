@@ -3,7 +3,7 @@ import { StoryCard } from '../components/StoryCard';
 import { motion } from 'motion/react';
 import { ArrowRight, Award, Mail, Phone, MapPin, Send, Heart, Users, Book } from 'lucide-react';
 import { Link } from 'react-router';
-import heroImage from '../../assets/aniagolu.png';
+import heroImage from '../../assets/aniagolu1.png';
 import aniagolu1 from '../../assets/aniagolu1.png';
 import aniagolu2 from '../../assets/aniagolu2.png';
 import aniagolu3 from '../../assets/aniagolu3.png';
@@ -84,9 +84,9 @@ export function HomePage() {
     <div>
       {/* Hero Section */}
       <Hero
-        title="The Legacy of Justice Anthony Aniagolu"
+        title="Justice Anthony Aniagolu "
         subtitle="Honoring Excellence"
-        description="Celebrating a life dedicated to justice, leadership, and service. Explore the remarkable journey of one of Nigeria's most distinguished jurists."
+        description="A Permanent Digital Memorial to Integrity, Institutions, and Trust"
         image={heroImage}
         ctaPrimary={{ text: 'Explore Archives', link: '/archives' }}
         ctaSecondary={{ text: 'Learn More', link: '/about' }}
@@ -103,18 +103,25 @@ export function HomePage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-6">
-              Preserving a Legacy of Excellence
+              The National Purpose 
             </h2>
             <p className="text-lg text-[#8B8478] leading-relaxed mb-8">
-              We are dedicated to preserving and promoting the judicial 
-              philosophy, scholarly work, and humanitarian contributions of Justice Anthony Aniagolu. 
-              Through our archives, educational programs, and community initiatives, we ensure that his commitment to justice continues to inspire future generations.
+              <br />
+              No nation sustains progress without trusted institutions.
+              <br />
+              {/* <br /> */}
+
+              Economic growth, social development, and national stability depend on public systems that command confidence and authority. Where trust is strong, institutions endure. Where it weakens, progress becomes uncertain and fragile.
+              <br />
+              {/* <br /> */}
+
+              This memorial exists to affirm the central role of integrity, discipline, and institutional credibility in Nigeria’s national life. It preserves the memory of a public servant whose conduct strengthened the authority of the law and reinforced confidence in the judiciary at a formative moment in the nation’s history.
             </p>
             <Link
               to="/about"
               className="inline-flex items-center text-[#C5A572] hover:text-[#9E7E4A] transition-colors group text-lg font-medium"
             >
-              Learn About Our Mission
+              Learn More
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
             </Link>
           </motion.div>

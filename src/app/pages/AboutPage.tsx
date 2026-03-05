@@ -135,6 +135,11 @@ AboutPage() {
                 alt="Justice Anthony Aniagolu"
                 className="w-full rounded-lg shadow-xl"
               />
+              <img
+                src={aniagolu1}
+                alt="Justice Anthony Aniagolu"
+                className="mt-1 w-full rounded-lg shadow-xl"
+              />
             </motion.div>
 
             <motion.div
@@ -144,30 +149,42 @@ AboutPage() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-6">
-                A Distinguished Career
+                 Who Justice Anthony Aniagolu Was
               </h2>
               <div className="space-y-4 text-[#8B8478] leading-relaxed">
-                <p>
-                  Justice Anthony Nnaemezie Aniagolu was one of Nigeria’s most distinguished jurists, whose judicial and constitutional career spanned more than four decades. Renowned for intellectual rigor, institutional discipline, and uncompromising fidelity to the rule of law, he played a foundational role in shaping Nigeria’s post-independence jurisprudence and constitutional development.
-                </p>
-                <p>
-                  Born on 22 October 1922 in Eke, Udi (present-day Enugu State), he demonstrated academic excellence from an early age. After studies at Government College, Umuahia and Christ the King College, Onitsha, he pursued legal education in the United Kingdom, earning his LL.B from the University of Bristol and being called to the Bar at Gray’s Inn, London, in July 1952. He was subsequently enrolled as a Barrister and Solicitor of the Supreme Court of Nigeria the same year.
-                </p>
-                <p>
-                  Justice Aniagolu began his professional career in private legal practice (1952–1965), during which he established a reputation for competence and ethical firmness. He also held important public and professional roles, including:
-                  <ul liststyle="disc" className="list-inside text-[#8B8478] leading-relaxed mt-2 mb-4">
-                    <li> * Chairman, Nigerian Bar Association (Enugu Branch) (1962–1965)</li>
-                    <li>* Member, Disciplinary Committee, Bar Council of Nigeria (1962–1965)</li>
-                    <li>* Member, Federal Electoral Commission (1958–1965)</li>
-                    <li>* Member, Federal Nigerian Delimitation Commission (1963–1964)</li>
-                    
-                  </ul>
-                  These early engagements reflected his growing influence within Nigeria’s legal and institutional landscape.
-                </p>
-                <p>
-                  Justice Anthony N. Aniagolu stands among the titans of Nigeria’s judicial history. His career represents a synthesis of scholarship, administrative leadership, constitutional stewardship, and ethical courage. His judgments, writings, and public service continue to inform legal discourse and serve as a model for judicial integrity within Nigeria’s evolving constitutional democracy. <br/><br/>
-                  This overview is suitable for placement within a digital memorial library as a concise yet authoritative account of his professional life and enduring institutional legacy.
-                </p>
+                <strong><u>Justice Anthony Nnamenezie Christopher Aniagolu</u></strong>
+                <br /><b><i>1922 – 2011</i></b>
+                <br />
+
+                <em>Justice Anthony Aniagolu served Nigeria with distinction as a Justice of the Supreme Court during a formative era in the country’s constitutional and legal development.</em>
+                <br />
+                <br />
+
+                He was widely regarded as a jurist of exceptional discipline and unimpeachable integrity. Within the Bar and the Bench, his name carried weight because of trust earned over time. His judgments reflected careful reasoning, intellectual depth, and a consistent devotion to justice, exercised with independence of mind and restraint.
+                <br />
+
+                His appointment to chair Nigeria’s Constituent Assembly reflected national confidence in his steadiness, moral authority, and judgment at a moment when the direction of the nation itself was under consideration.
+                <br />
+
+                He exemplified a form of public service in which office was inseparable from conscience.
+                <br />
+                <br />
+
+                <strong><u>The Aniagolu Legacy </u></strong>
+                <br />
+
+                Justice Aniagolu’s influence extended beyond the courtroom.
+                <br />
+
+                He lived a life ordered around discipline, study, and principle. His personal law library was reputed to be among the finest in Nigeria, reflecting sustained devotion to the law in its depth, history, and moral consequence.
+                <br />
+
+                Those who encountered him described a man for whom integrity was habitual and excellence was a responsibility rather than an ambition. His service strengthened institutions quietly, through conduct, consistency, and example.
+                <br/>
+
+                This memorial is designed to preserve that legacy and make it accessible across generations.
+
+                
               </div>
             </motion.div>
           </div>
@@ -277,12 +294,10 @@ AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="font-serif text-3xl md:text-4xl mb-6">Our Mission</h2>
+            <h2 className="font-serif text-3xl md:text-4xl mb-6">About</h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-             We are dedicated to preserving and promoting the judicial 
-              philosophy, scholarly work, and humanitarian contributions of Justice Anthony Aniagolu. 
-              We work to ensure that his commitment to justice, integrity, and excellence continues 
-              to inspire and guide future generations of legal professionals and public servants.
+             
+                <em>“A reconstructed digital law library, a curated archive of landmark judgments, records of constitutional contributions, scholarly reflections and oral histories, and educational resources for students, educators, and citizens.”</em>
             </p>
             <div className="h-1 w-32 bg-[#C5A572] mx-auto" />
           </motion.div>

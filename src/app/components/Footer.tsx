@@ -92,8 +92,8 @@ export function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={16} className="mt-1 text-[#C5A572] flex-shrink-0" />
-                <a href="mailto:info@aniagolu.org" className="text-gray-300 hover:text-[#C5A572] transition-colors text-sm">
-                  info@aniagolu.org
+                <a href="mailto:enquiries@aniagolu.org" className="text-gray-300 hover:text-[#C5A572] transition-colors text-sm">
+                   enquiries@aniagolu.org
                 </a>
               </li>
               <li className="flex items-start space-x-3">
@@ -110,7 +110,7 @@ export function Footer() {
         <div className="border-t border-[#2D4263] pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} <b>Aniagolu</b> All rights reserved | Designed and Developed by James King (+234 814 822 4425)
+              © {currentYear} <b>Aniagolu's Legacy</b>. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-[#C5A572] transition-colors text-sm">
