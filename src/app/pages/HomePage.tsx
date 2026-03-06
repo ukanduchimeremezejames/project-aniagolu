@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { ArrowRight, Award, Mail, Phone, MapPin, Send, Heart, Users, Book } from 'lucide-react';
 import { Link } from 'react-router';
 import heroImage from '../../assets/aniagolu1.png';
+import heroImage2 from '../../assets/aniagolu.png';
 import aniagolu1 from '../../assets/aniagolu1.png';
 import aniagolu2 from '../../assets/aniagolu2.png';
 import aniagolu3 from '../../assets/aniagolu3.png';
@@ -92,6 +93,56 @@ export function HomePage() {
         ctaSecondary={{ text: 'Learn More', link: '/about' }}
       />
 
+      {/* Biography Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              {/* <img
+                src={heroImage2}
+                alt="Justice Anthony Aniagolu"
+                className="w-full rounded-lg shadow-xl"
+              /> */}
+              <img
+                src={aniagolu1}
+                alt="Justice Anthony Aniagolu"
+                className="mt-1 w-full rounded-lg shadow-xl"
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <h2 className="font-serif text-3xl md:text-4xl text-[#1A2B47] mb-6">
+                Introduction!
+              </h2>
+              <div className="space-y-4 text-[#8B8478] leading-relaxed">
+                <i>There was a period in Nigeria’s history when public institutions inspired confidence, when the law carried authority because it was principled, and when service to the nation was anchored in duty and honour.</i>
+                <br /><b><u>Justice Anthony Aniagolu belonged to that period.</u></b>
+                <br />
+                <br/>
+
+                He served at a time when judicial office was held with gravity, when integrity was lived rather than declared, and when the authority of the law rested on moral clarity as much as legal reasoning. He represented a Nigeria that understood restraint as strength and character as the foundation of public trust.
+                <br />
+                <br/>
+
+                <em><strong>This site stands as a permanent digital memorial to one of Nigeria’s most respected Supreme Court Justices, created to preserve a tradition of public service that reflected the nation at its best.</strong></em>
+                
+                
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Statement */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -127,6 +178,7 @@ export function HomePage() {
           </motion.div>
         </div>
       </section>
+
 
       {/* Features Grid */}
       <section className="py-20 bg-[#FAF8F5]">

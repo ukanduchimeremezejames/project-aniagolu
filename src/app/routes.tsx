@@ -8,6 +8,7 @@ import { MediaPage } from "./pages/MediaPage";
 import { PublicationsPage } from "./pages/PublicationsPage";
 import { EventsPage } from "./pages/EventsPage";
 import { ContactPage } from "./pages/ContactPage";
+import { ContentPage } from "./pages/ContentPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 
 export const router = createBrowserRouter([
@@ -17,12 +18,13 @@ export const router = createBrowserRouter([
     children: [
       { index: true, Component: HomePage },
       { path: "about", Component: AboutPage },
-      // { path: "archives", Component: ArchivesPage },
+      { path: "archives", Component: ArchivesPage },
       { path: "history", Component: HistoryPage },
-      // { path: "media", Component: MediaPage },
+      { path: "media", Component: MediaPage },
       { path: "publications", Component: PublicationsPage },
       // { path: "events", Component: EventsPage },
       { path: "contact", Component: ContactPage },
+      { path: "content", Component: ContentPage },
       { path: "*", Component: NotFoundPage },
     ],
   },
