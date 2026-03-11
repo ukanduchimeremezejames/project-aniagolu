@@ -152,7 +152,7 @@ AboutPage() {
                  Who Justice Anthony Aniagolu Was
               </h2>
               <div className="space-y-4 text-[#8B8478] leading-relaxed">
-                <strong><u>Justice Anthony Nnamenezie Christopher Aniagolu</u></strong>
+                <strong><u>Justice Anthony Nnaemezie Christopher Aniagolu</u></strong>
                 <br /><b><i>1922 – 2011</i></b>
                 <br />
 

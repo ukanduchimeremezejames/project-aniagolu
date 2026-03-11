@@ -110,7 +110,7 @@ export function Footer() {
         <div className="border-t border-[#2D4263] pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} <b>Aniagolu's Legacy</b>. All rights reserved by me.
+              © {currentYear} <b>Aniagolu's Legacy</b>. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-[#C5A572] transition-colors text-sm">
